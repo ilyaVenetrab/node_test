@@ -1,4 +1,4 @@
 .idea/
 node_modules/
-assets/js/bower_component/
+assets/vendor/
 .tmp/
