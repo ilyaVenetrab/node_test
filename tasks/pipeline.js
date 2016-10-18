@@ -18,7 +18,7 @@
 //  to change `assets/styles/importer.less` instead.)
 var cssFilesToInject = [
   'styles/**/*.css',
-  'vendor/bootstrap/dist/css/bootstrap.min.css'
+  'js/dependencies/bootstrap/dist/css/bootstrap.min.css'
 ];
 
 
@@ -30,11 +30,11 @@ var jsFilesToInject = [
   'js/dependencies/sails.io.js',
 
   // Dependencies like jQuery, or Angular are brought in here
-  '../../bower_components/jquery/dist/jquery.min.js',
-  '../../bower_components/bootstrap/dist/js/bootstrap.min.js',
-  '../../bower_components/angular/angular.min.js',
-  '../../bower_components/angular-resource/angular-resource.min.js',
-  '../../bower_components/angular-route/angular-route.min.js',
+  'js/dependencies/jquery/dist/jquery.min.js',
+  'js/dependencies/bootstrap/dist/js/bootstrap.min.js',
+  'js/dependencies/angular/angular.min.js',
+  'js/dependencies/angular-resource/angular-resource.min.js',
+  'js/dependencies/angular-route/angular-route.min.js',
 
   'js/app/**/module.js',
 
@@ -42,7 +42,7 @@ var jsFilesToInject = [
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
-  'js/**/*.js'
+  // 'js/**/*.js'
 ];
 
 
