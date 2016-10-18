@@ -29,11 +29,11 @@ var jsFilesToInject = [
   'js/dependencies/sails.io.js',
 
   // Dependencies like jQuery, or Angular are brought in here
-  '/vendor/jquery/dist/jquery.min.js',
-  '/vendor/bootstrap/dist/js/bootstrap.min.js',
-  '/vendor/angular/angular.min.js',
-  '/vendor/angular-resource/angular-resource.min.js',
-  '/vendor/angular-route/angular-route.min.js',
+  'js/bower_component/jquery/dist/jquery.min.js',
+  'js/bower_component//bootstrap/dist/js/bootstrap.min.js',
+  'js/bower_component//angular.min.js',
+  'js/bower_component/angular-resource/angular-resource.min.js',
+  'js/bower_component/angular-route/angular-route.min.js',
 
   'js/app/**/module.js',
 
@@ -41,7 +41,7 @@ var jsFilesToInject = [
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
-  'js/**/*.js'
+  // 'js/**/*.js'
 ];
 
 
